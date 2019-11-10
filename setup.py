@@ -11,7 +11,7 @@ setuptools.setup(
     description="hello world",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jeremydimond/python-hello-world",
+    url="https://github.com/jeremydimond/python-hello-world/archive/release_0_0_1.tar.gz",
     packages=setuptools.find_packages(),
     keywords=['hello world'],
     classifiers=[
