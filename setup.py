@@ -11,8 +11,9 @@ setuptools.setup(
     description="hello world",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/jeremydimond/python-hello-world",
     packages=setuptools.find_packages(),
+    keywords=['hello world'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Development Status :: 4 - Beta",
