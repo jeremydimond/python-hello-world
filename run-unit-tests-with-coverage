@@ -5,4 +5,4 @@ set -u -e
 TEST_COVERAGE_MINIMUM=100
 
 echo "Running pytest..."
-python -m pytest --cov=helloworld --no-cov-on-fail --cov-fail-under=${TEST_COVERAGE_MINIMUM} --cov-branch --cov-report=term --cov-report=html tests/unit
+python -m pytest --cov=src/helloworld --no-cov-on-fail --cov-fail-under=${TEST_COVERAGE_MINIMUM} --cov-branch --cov-report=term --cov-report=html tests/unit

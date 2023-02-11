@@ -2,7 +2,7 @@ from typing import Optional
 
 import pytest
 
-from helloworld.greeter import say_hello
+from src.helloworld.greeter import say_hello
 
 
 @pytest.mark.parametrize(

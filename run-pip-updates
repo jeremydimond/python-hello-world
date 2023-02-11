@@ -3,4 +3,4 @@
 set -u -e
 
 pip install --upgrade pip
-pip install -r requirements.txt --upgrade
+pip install --upgrade -e .[dev]
