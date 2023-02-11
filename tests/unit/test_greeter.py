@@ -8,7 +8,7 @@ from helloworld.greeter import say_hello
 @pytest.mark.parametrize(
     argnames=['name', 'expected_result'],
     argvalues=[
-        ('Bob', 'Hello, Bob!'),
+        ('Bob', 'Hello, Bobxxxxx!'),
         (None, 'Hello!'),
     ]
 )
