@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -u -e
+
+./run-pip-updates
+./run-unit-tests-with-coverage
