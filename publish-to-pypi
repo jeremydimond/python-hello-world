@@ -8,3 +8,9 @@ bumpver update --patch
 python -m build
 twine check dist/*
 twine upload -r pypi dist/*
+
+# Restore development environment
+./run-pip-updates
+
+echo
+echo "If you're happy with this publish, don't forget to push changes to git (with tags)"
