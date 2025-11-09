@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jeremydimond.python-hello-world"
-version = "0.0.4"
+version = "0.0.5"
 description = "Hello world project to test built, test, publish, etc."
 readme = "README.md"
 authors = [{ name = "Jeremy Dimond", email = "jeremy@jeremydimond.com" }]
@@ -28,7 +28,7 @@ say-hello = "helloworld.greeter:main_cli"
 Homepage = "https://github.com/jeremydimond/python-hello-world"
 
 [tool.bumpver]
-current_version = "0.0.4"
+current_version = "0.0.5"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true
