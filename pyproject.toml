@@ -19,7 +19,7 @@ requires-python = ">=3.9"
 dependencies = []
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-cov", "pytest-tldr", "bumpver", "build", "twine"]
+dev = ["pytest<9.0.0", "pytest-cov", "pytest-tldr", "bumpver", "build", "twine"]
 
 [project.scripts]
 say-hello = "helloworld.greeter:main_cli"
